@@ -1,0 +1,26 @@
+.main {
+    height: 1000px;
+    width: 100vw;
+}
+.section-container {
+    display: grid;
+    grid-template-columns: 8rem 1fr 1fr 8rem;
+    margin-top: 60px;
+}
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+.section-img {
+    height: 110px;
+    width: auto;
+    margin-right: 30px;
+}
+.article {
+    font-size: 24px;
+    width: 460px;
+    line-height: 34px;
+}

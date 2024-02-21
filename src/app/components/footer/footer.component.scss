@@ -1,0 +1,47 @@
+.footer {
+    height: 400px;
+    background-color: black;
+    color: white;
+}
+.footer-section-container {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-self: auto;
+}
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.footer-section a {
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+.footer-section a:hover {
+    text-decoration: underline;
+}
+.section-title {
+    font-size: 24px;
+}
+.section-end {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+.company-container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+.footer-img {
+    height: 18px;
+    width: 18px;
+    margin-right: 8px;
+}
+.footer .section-end {
+    display: flex;
+    align-self: flex-end;
+}
